@@ -1,0 +1,242 @@
+Santa's Trainee Elf version 0.0.8
+By Garry Francis
+For web browser
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution to a large game. Your goal is to complete ten tasks for Santa Claus. Two of these are chores and eight of these are finding or making presents for eight children. The early part of the game is essentially an information gathering exercise. You need to find out exactly what the two chores are, find out exactly what presents are required for the children and find out what materials you need to make the presents. In doing so, you'll need to EXAMINE lots of things, talk to all the characters and ask them about various things. There are lots of things to do, lots of things to try and lots of areas to explore. If you get really desperate, type HINT to access the context-sensitive hint system.
+
+Scores are shown in parentheses as +A=B, where A is points earned and B is cumulative points earned. You achieve 10 points for completing each of the two chores, five points for finding or making each of the eight presents and a further five points for placing each of the presents on Santa's sleigh.
+
+There are various ways to approach the game. In the solution below, I have opted to gather all the required materials for the presents and drop them in the assembly area, then make all the toys at the end. In doing so, I have gathered everything indoors first, then everything outdoors, completing the other two chores along the way. Other approaches are equally valid. Incidentally, as your inventory is limited to ten items, don't waste your time carrying around items that you don't need.
+
+I have included many optional (but sometimes significant) commands in parentheses. You can omit these once you know what to do. There are many other commands not shown. Make sure you note the extra things to try once you've completed the game, then replay it to try all the things you may have missed. Some of these are quite funny.
+
+So, here we go on a really fun, family-friendly game...
+
+(X SANTA) (he's waiting to tell you something)
+TALK TO SANTA (he gives you instructions and a list of 10 tasks)
+(I) (you're now carrying the list that Santa gave you)
+(X LIST) (it's colour-coded in red, yellow and green using elvish magic)
+READ LIST (it lists two chores and eight children to get presents for, all red)
+S
+D
+S (you find Neldor in the mailroom)
+(X NELDOR) (he teaches young elves and administers the naughty-or-nice list)
+(TALK TO NELDOR) (if you want to know what a child wants, ask about that child)
+ASK ABOUT AFRAM (he wants a pop gun)
+ASK ABOUT ARYA (she wants a piggy bank)
+ASK ABOUT CINDY (she wants a skipping rope)
+ASK ABOUT JENNIFER (she wants a surprise, so Neldor suggests a jack-in-the-box)
+ASK ABOUT JIMMY (he wants a tin drum)
+ASK ABOUT LI (he wants a kite)
+ASK ABOUT OLIVER (he's been naughty, so he gets a lump of coal)
+ASK ABOUT SAMANTHA (she wants a teddy bear)
+(READ LIST) (it now lists all presents in yellow, in case you need a reminder)
+(For a laugh, ASK NELDOR ABOUT CHRIS, DAVID, DEE, ERROL, JOHN, GARRY, LIONEL and RICARDO, all Adventuron veterans. Of course, it helps if you know them.)
+GET TWINE
+N
+W
+S
+(X BOOK) (it's closed, perhaps you should read it)
+(READ IT) ("Kindroth's Guide...", perhaps you should open it)
+OPEN BOOK
+READ IT (lots of topics, you can read them all, but take notes on ones you want)
+READ ABOUT POP GUN (needs wooden block, dowel, plastic pipe, string & cork)
+READ ABOUT PIGGY BANK (needs clay, water, mould & paint)
+READ ABOUT SKIPPING ROPE (needs wooden rod & rope)
+READ ABOUT JACK-IN-THE-BOX (needs box, cardboard cylinder, spring & sock puppet)
+READ ABOUT TIN DRUM (needs tin, sheet of rubber & paint)
+READ ABOUT KITE (needs wooden strips, linen, twine)
+READ ABOUT TEDDY BEAR (needs fluffy fabric, stuffing & cotton thread)
+N
+E
+N
+W
+N
+(X BRAYERN) (he's a skilled carpenter)
+TALK TO BRAYERN (he has blocks, boards, strips, rods, dowels & plywood)
+ASK FOR BLOCK (needed for pop gun)
+ASK FOR STRIP (needed for kite)
+ASK FOR ROD (needed for skipping rope)
+ASK FOR DOWEL (needed for pop gun)
+GET ALL
+S
+S
+(X ARLAYNA) (her handcraft skills are legendary)
+TALK TO ARLAYNA (she has cardboard, clay, glue, ink, paint & paper)
+ASK FOR CLAY (needed for piggy bank)
+ASK FOR GLUE (needed for repairs)
+ASK FOR PAINT (needed for piggy bank & tin drum)
+GET ALL
+N
+E
+DROP ALL EXCEPT LIST
+W
+W
+N
+(X LILUTH) (she knows everything about fabrics and materials)
+TALK TO LILUTH (she has calico, felt, fluffy fabric, leather, linen & thread)
+ASK FOR FLUFFY FABRIC (needed for teddy bear)
+ASK FOR LINEN (needed for kite)
+ASK FOR COTTON THREAD (needed for teddy bear)
+GET ALL
+S
+(S)
+(X JANDOR) (he's a skilled engineer)
+(TALK TO JANDOR) (he has gears, bars, tubes, stainless steel, wire & widgets)
+(N)
+E
+E
+N
+X SHELVES (contains hand puppet, ice skates & yoyo)
+GET ALL FROM SHELVES
+(X PUPPET) (needed for jack-in-the-box)
+(PUT HAND IN PUPPET) (the puppet reminds you not to waste time)
+(X SKATES) (they're sharp)
+(WEAR SKATES) (your feet are too big)
+(X YOYO) (it's got a long string)
+(PLAY WITH IT) (you give up when it hits you on the head)
+(X STRING) (it's attached to the yoyo)
+CUT STRING WITH SKATES (it falls to the floor)
+GET IT (needed for pop gun)
+DROP YOYO AND SKATES
+S
+DROP ALL EXCEPT LIST
+S
+U
+E
+(X MRS CLAUS) (she's 'well rounded')
+TALK TO MRS CLAUS (she asks you to get gingerbread from top shelf in pantry)
+(READ LIST) (Mrs Claus' chore is now listed in yellow)
+S
+(X SHELVES) (the gingerbread is out of reach, but you find a jam tin)
+GET TIN (needed for tin drum)
+(X IT) (it contains some carrots)
+GET COOKIE BOX (needed for jack-in-the-box)
+(X IT) (it's got a hinged lid)
+OPEN IT (it contains cookies)
+EMPTY IT
+N
+N
+GET BALLOON
+(X IT) (it's made of rubber & fully inflated)
+(BREAK IT) (you need something sharp to burst it)
+(X TABLE) (contains a wine bottle)
+GET BOTTLE (needed to hold water)
+(X IT) (it contains a cork)
+(X CORK) (it's an old-fashioned cork)
+W
+(X MANTELPIECE) (it contains a candle)
+GET CANDLE
+(X IT) (it's one of Broomhilda's magic candles, see 'The Witch's Apprentice')
+LIGHT IT (you light it from the fireplace)
+S
+W
+N
+(X BUNKS) (yours is the one on the right)
+(X BUNK) (why not get on it?)
+GET ON BUNK (ouch, you find a spring)
+GET SPRING (needed for jack-in-the-box)
+(X LOCKER) (it's closed)
+OPEN LOCKER (it contains a jumper)
+GET JUMPER
+(X IT) (your mother knitted 'TRAINEE ELF' across the front of it)
+WEAR IT (you can now venture outside the workshop into the cold)
+N
+(X BASKET) (it contains a cardboard cylinder)
+GET CYLINDER
+(X IT) (it's from a used roll of toilet paper)
+FILL BOTTLE (with water from hand basin)
+S
+S
+E
+D
+N
+DROP ALL EXCEPT LIST AND CANDLE
+GET CARROTS
+S
+S
+S
+E
+N
+(X VOLODAR) (he's looking after the reindeer)
+TALK TO VOLODAR (he asks you to feed the reindeer)
+(READ LIST) (Volodar's chore is now listed in yellow)
+N
+GIVE CARROTS TO REINDEER (+10=10) (you can now visit the hay loft)
+(READ LIST) (Volodar's chore is now listed in green)
+GET ROPE (needed for skipping rope)
+S
+U
+X HAYSTACK (you find a needle, needle in a haystack, get it?)
+GET NEEDLE
+GET HAY (needed for teddy bear)
+D
+S
+W
+W
+N
+GET POLE (it's actually a gardening spade)
+N
+DIG SNOW WITH SPADE (you find a plastic pipe)
+DIG SNOW WITH SPADE (you find a broken mould)
+GET ALL
+DROP SPADE
+N
+N
+GET COAL (+5=15)
+S
+S
+S
+S
+E
+N
+N
+N
+GET GLUE
+REPAIR MOULD (needed for piggy bank)
+POP BALLOON WITH NEEDLE (you've now got a sheet of rubber, needed for tin drum)
+DROP ALL EXCEPT LIST
+MAKE JACK-IN-THE-BOX (+5=20)
+GET IT
+S
+U
+E
+S
+DROP BOX
+STAND ON IT
+OPEN IT (you're propelled into the air and get the gingerbread)
+CLOSE BOX
+GET IT
+N
+GIVE GINGERBREAD TO MRS CLAUS (+10=30)
+(READ LIST) (Mrs Claus' chore is now listed in green)
+W
+D
+N
+MAKE POP GUN (+5=35)
+GET IT
+MAKE PIGGY BANK (+5=40)
+GET IT
+MAKE SKIPPING ROPE (+5=45)
+GET IT
+MAKE TIN DRUM (+5=50)
+GET IT
+MAKE KITE (+5=55)
+GET IT
+MAKE TEDDY BEAR (+5=60)
+GET IT
+GET COAL
+E
+PUT POP GUN ON SLEIGH (+5=65)
+PUT PIGGY BANK ON SLEIGH (+5=70)
+PUT SKIPPING ROPE ON SLEIGH (+5=75)
+PUT JACK-IN-THE-BOX ON SLEIGH (+5=80)
+PUT TIN DRUM ON SLEIGH (+5=85)
+PUT KITE ON SLEIGH (+5=90)
+PUT COAL ON SLEIGH (+5=95)
+(READ LIST) (note that all except one chore is complete)
+PUT TEDDY BEAR ON SLEIGH (+5=100)
+Y (to see a list of things to try)
+***THE END***

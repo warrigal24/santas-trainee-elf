@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>Santa's Trainee Elf</title>
+		<author>Garry Francis</author>
+	</info>
+	<map>
+		<room id="3" name="Elves' Bunkroom" subtitle="" x="-280" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rows of bunks|Your bunk|(Spring)|Your foot locker|(Your jumper)</objects>
+		</room>
+		<room id="4" name="Lounge Room" subtitle="" x="-160" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Santa Claus|Lounge chair|Christmas tree|Christmas decorations|Fireplace|Mantelpiece|Candle|(List)</objects>
+		</room>
+		<room id="5" name="Dining Hall" subtitle="" x="-40" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Dining tables|Wine bottle|(Bottle of water)|Cork|Balloon|(Sheet of rubber)</objects>
+		</room>
+		<room id="6" name="Upstairs Hallway" subtitle="" x="-160" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Stairs</objects>
+		</room>
+		<room id="7" name="Kitchen" subtitle="" x="-40" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Mrs Claus</objects>
+		</room>
+		<line id="29" style="dashed">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<line id="30">
+			<dock index="0" id="6" port="e" />
+			<dock index="1" id="7" port="w" />
+		</line>
+		<line id="31">
+			<dock index="0" id="5" port="s" />
+			<dock index="1" id="7" port="n" />
+		</line>
+		<room id="92" name="Santa's Trainee Elf (Garry Francis)" subtitle="" x="-280" y="-200" w="200" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="38" name="Lavatory" subtitle="" x="-280" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Toilet|Toilet paper|Hand basin|Waste basket|(Used tissues)|(Cardboard cylinder)</objects>
+		</room>
+		<room id="62" name="Upstairs Hallway" subtitle="" x="-280" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Window|Door</objects>
+		</room>
+		<room id="66" name="Fabric Supplies" subtitle="" x="-400" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Liluth the elf|Fluffy fabric</objects>
+		</room>
+		<room id="67" name="Woodwork Supplies" subtitle="" x="-280" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Brayern the elf|Wood block|Wood dowel|Wooden rod|Wood strip</objects>
+		</room>
+		<room id="70" name="Supplies Hallway" subtitle="" x="-400" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="71" name="Supplies Hallway" subtitle="" x="-280" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="72" name="Assembly Area" subtitle="" x="-160" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Jack-in-the-box|Kite|Piggy bank|Pop gun|Skipping rope|Teddy bear|Tin drum</objects>
+		</room>
+		<room id="73" name="Barn" subtitle="" x="-40" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Santa's sleigh|Presents</objects>
+		</room>
+		<room id="76" name="Metalwork Supplies" subtitle="" x="-400" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Jandor the elf</objects>
+		</room>
+		<room id="77" name="Craft Supplies" subtitle="" x="-280" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Arlayna the elf|Sheet of paper|Clay|Paint|Glue|Cotton</objects>
+		</room>
+		<line id="102" style="dashed">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="5" port="w" />
+		</line>
+		<line id="108">
+			<dock index="0" id="62" port="e" />
+			<dock index="1" id="6" port="w" />
+		</line>
+		<line id="127">
+			<dock index="0" id="66" port="s" />
+			<dock index="1" id="70" port="n" />
+		</line>
+		<line id="128">
+			<dock index="0" id="38" port="s" />
+			<dock index="1" id="3" port="n" />
+		</line>
+		<line id="129">
+			<dock index="0" id="3" port="s" />
+			<dock index="1" id="62" port="n" />
+		</line>
+		<line id="132">
+			<dock index="0" id="67" port="s" />
+			<dock index="1" id="71" port="n" />
+		</line>
+		<line id="180">
+			<dock index="0" id="72" port="e" />
+			<dock index="1" id="73" port="w" />
+		</line>
+		<line id="188">
+			<dock index="0" id="70" port="s" />
+			<dock index="1" id="76" port="n" />
+		</line>
+		<line id="189">
+			<dock index="0" id="71" port="s" />
+			<dock index="1" id="77" port="n" />
+		</line>
+		<line id="191">
+			<dock index="0" id="70" port="e" />
+			<dock index="1" id="71" port="w" />
+		</line>
+		<line id="192">
+			<dock index="0" id="71" port="e" />
+			<dock index="1" id="72" port="w" />
+		</line>
+		<room id="207" name="Dump" subtitle="" x="-520" y="320" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow|(Plastic tube)|(Broken mould)|(Mould)</objects>
+		</room>
+		<room id="208" name="Downstairs Hallway" subtitle="" x="-280" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Window</objects>
+		</room>
+		<room id="209" name="Downstairs Hallway" subtitle="" x="-160" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Stairs</objects>
+		</room>
+		<room id="210" name="Reindeer Stalls" subtitle="" x="-40" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Reindeer|Dasher|Dancer|Prancer|Vixen|Comet|Cupid|Dunder|Blixem|Rope</objects>
+		</room>
+		<room id="211" name="Vegetable Garden" subtitle="" x="-520" y="400" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow|Pole|(Shovel)</objects>
+		</room>
+		<room id="212" name="Classroom" subtitle="" x="-280" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Text book</objects>
+		</room>
+		<room id="213" name="Mailroom" subtitle="" x="-160" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Neldor the elf|Ball of twine</objects>
+		</room>
+		<room id="214" name="Inside Stable" subtitle="" x="-40" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Volodar the elf|Ladder</objects>
+		</room>
+		<room id="215" name="Hay Loft" subtitle="" x="80" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Ladder|Haystack|(Needle)|(Handful of hay)</objects>
+		</room>
+		<room id="216" name="Inside Coal Mine" subtitle="" x="-520" y="160" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Lump of coal</objects>
+		</room>
+		<room id="218" name="SW of Workshop" subtitle="" x="-520" y="480" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow</objects>
+		</room>
+		<room id="219" name="Outside Workshop" subtitle="" x="-160" y="480" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow</objects>
+		</room>
+		<room id="220" name="Outside Stable" subtitle="" x="-40" y="480" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow|Stable</objects>
+		</room>
+		<room id="222" name="Outside Coal Mine" subtitle="" x="-520" y="240" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow</objects>
+		</room>
+		<line id="229">
+			<dock index="0" id="207" port="s" />
+			<dock index="1" id="211" port="n" />
+		</line>
+		<line id="233">
+			<dock index="0" id="208" port="s" />
+			<dock index="1" id="212" port="n" />
+		</line>
+		<line id="235">
+			<dock index="0" id="209" port="s" />
+			<dock index="1" id="213" port="n" />
+		</line>
+		<line id="236" style="dashed">
+			<dock index="0" id="213" port="s" />
+			<dock index="1" id="219" port="n" />
+		</line>
+		<line id="237" style="dashed">
+			<dock index="0" id="210" port="s" />
+			<dock index="1" id="214" port="n" />
+		</line>
+		<line id="238" style="dashed">
+			<dock index="0" id="214" port="s" />
+			<dock index="1" id="220" port="n" />
+		</line>
+		<line id="249" style="dashed">
+			<dock index="0" id="216" port="s" />
+			<dock index="1" id="222" port="n" />
+		</line>
+		<line id="257">
+			<dock index="0" id="208" port="e" />
+			<dock index="1" id="209" port="w" />
+		</line>
+		<line id="261" style="dashed" startText="U" endText="D">
+			<dock index="0" id="214" port="e" />
+			<dock index="1" id="215" port="w" />
+		</line>
+		<line id="266">
+			<dock index="0" id="218" port="e" />
+			<dock index="1" id="219" port="w" />
+		</line>
+		<line id="267">
+			<dock index="0" id="219" port="e" />
+			<dock index="1" id="220" port="w" />
+		</line>
+		<room id="347" name="North Pole" subtitle="" x="-160" y="560" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow|North pole</objects>
+		</room>
+		<line id="371">
+			<dock index="0" id="219" port="s" />
+			<dock index="1" id="347" port="n" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2021" subtitle="" x="-20" y="560" w="180" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="-520" y="-160" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="-520" y="-120" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="-520" y="-60" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="286" name="Dark Room" subtitle="" x="-520" y="0" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="1">
+			<dock index="0" id="72" port="s" />
+			<dock index="1" id="209" port="n" />
+		</line>
+		<line id="2" startText="D" endText="U">
+			<dock index="0" id="6" port="se" />
+			<dock index="1" id="209" port="ne" />
+		</line>
+		<line id="10">
+			<dock index="0" id="211" port="s" />
+			<dock index="1" id="218" port="n" />
+		</line>
+		<line id="8">
+			<dock index="0" id="222" port="s" />
+			<dock index="1" id="207" port="n" />
+		</line>
+		<room id="9" name="Toy Storage" subtitle="" x="-160" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Hand puppet|Ice skates|Yoyo|(Yoyo string)</objects>
+		</room>
+		<line id="11">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="72" port="n" />
+		</line>
+		<room id="12" name="Pantry" subtitle="" x="-40" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cookie box|(Empty box)|(Cookies)|Jam tin|(Carrots)</objects>
+		</room>
+		<line id="13">
+			<dock index="0" id="7" port="s" />
+			<dock index="1" id="12" port="n" />
+		</line>
+		<room id="14" name="Cold Room" subtitle="" x="-520" y="60" w="80" h="40" region="Cold" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Snow</objects>
+		</room>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Cold Name="Cold" TextColor="Black">#80FFFF</Cold>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
