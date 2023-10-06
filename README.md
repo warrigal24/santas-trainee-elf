@@ -12,7 +12,7 @@ Today also happens to be your birthday. You have just turned 16, which is the el
 
 You've been told to report to Santa in the lounge room to receive your instructions for your first day on the job. Good luck, young Eldrid.
 
-This is a traditional text adventure that was originally written for the [Adventuron Christmas Jam](https://itch.io/jam/an-adventuron-christmas-jam), 17 November to 23 December 2020. The game can be played at [Santa's Trainee Elf](https://warrigal.itch.io/santas-trainee-elf).
+This is a traditional text adventure that was originally written for the [Adventuron Christmas Jam](https://itch.io/jam/an-adventuron-christmas-jam), 17 November to 23 December 2020.
 
 ## Release notes
 
